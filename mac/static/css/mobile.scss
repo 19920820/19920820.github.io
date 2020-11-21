@@ -1,0 +1,508 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+// body{background-color: #F5F8F7;}
+.carryCard-page {
+    width: 100%;
+    //height: 53.92rem;
+    //background: url("https://res.cmicrwx.cn/rs/res3/rwkweb/carrycard/bg.jpg");
+    background-size: 100% 100%;
+    //padding-bottom: .5rem;
+    position: relative;
+}
+
+.carryCard-page .page-title {
+    width: 100%;
+    height: 7.82rem;
+    //background: url("https://res.cmicrwx.cn/rs/res3/rwkweb/carrycard/title1.png");
+    background-size: 100% 100%;
+    //position: relative;
+}
+
+.lingqu {
+    width: 1.6rem;
+    //height: .5rem;
+    position: absolute;
+    right: 0;
+    //top: 0;
+}
+
+.lingqu a {
+    width: 100%;
+    height: .68rem;
+    display: block;
+    background-size: 100% 100%;
+}
+
+.lingqu a img {
+    width: 1.5rem;
+    height: .5rem;
+
+}
+
+.carryCard-page .card-tc {
+    width: 7.32rem;
+    height: 10.52rem;
+    //background: url("https://res.cmicrwx.cn/rs/res3/rwkweb/carrycard/card-tc.png");
+    background-size: 100% 100%;
+    margin: 0 auto;
+    // margin-top: -0.2rem;
+    padding-top: 0.5rem;
+    box-sizing: border-box;
+    //position: relative;
+}
+
+// .carryCard-page .tc2{
+//     display: none;
+// }
+.carryCard-page .card-tc .tc-title {
+    display: flex;
+    justify-content: space-between;
+    width: 6rem;
+    height: 0.58rem;
+    color: #ffefc7;
+    //background: url("https://res.cmicrwx.cn/rs/res3/rwkweb/carrycard/tab1.png");
+    background-size: 100% 100%;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+
+.carryCard-page .card-tc .tc-title span {
+    font-size: .23rem;
+    line-height: .5rem;
+    //padding-left: .2rem;
+
+}
+
+.carryCard-page .card-tc .tc-title .btn1 {
+    width:100%;
+    height: 0.5rem;
+    text-align: center;
+    line-height: .5rem;
+}
+
+.carryCard-page .card-tc .tc-title .btn2 {
+    width: 100%;
+    height: 0.5rem;
+    text-align: center;
+    line-height: .5rem;
+
+}
+
+.carryCard-page .card-tc .logo2 {
+    //background: url("https://res.cmicrwx.cn/rs/res3/rwkweb/carrycard/tab2.png");
+    background-size: 100% 100%;
+}
+
+.carryCard-page .card-tc .tc-content {
+    margin-top: 0.35rem;
+}
+
+.carryCard-page .card-tc .tc-content .tc-list {
+    width: 5.88rem;
+    height: 2.22rem;
+    background: url("https://res.cmicrwx.cn/rs/res3/rwkweb/carrycard/p1.png");
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-bottom: 0.3rem;
+}
+
+.carryCard-page .card-tc .tc-content .tc-list2 {
+    width: 5.88rem;
+    height: 2.22rem;
+    background: url("https://res.cmicrwx.cn/rs/res3/rwkweb/carrycard/p2s.png");
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-bottom: 0.3rem;
+}
+
+.carryCard-page .card-tc .tc-content .tc-list3 {
+    width: 5.8rem;
+    height: 1.22rem;
+    background: url("https://res.cmicrwx.cn/rs/res3/rwkweb/carrycard/p3s.png");
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-bottom: 1.1rem;
+}
+
+.carryCard-page .card-tc .tc-content .tc-list4 {
+    width: 5.88rem;
+    height: 2.22rem;
+    background: url("https://res.cmicrwx.cn/rs/res3/rwkweb/carrycard/p4s.png");
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-bottom: 0.3rem;
+}
+
+.carryCard-page .card-tc .tc-btn {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    //margin-top: -0.7rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.carryCard-page .card-tc .tc-btn1 {
+    //display: flex;
+    //justify-content: center;
+    //margin: 0 auto;
+    //margin-top: -0.7rem;
+    //position: absolute;
+    //left: 0;
+    //right: 0;
+}
+.carryCard-page .card-tc .tc-btn .btn-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.61rem;
+    height: 1.2rem;
+    //background: url("https://res.cmicrwx.cn/rs/res3/rwkweb/carrycard/btn.png");
+    background-size: 100% 100%;
+    font-size: 0.3rem;
+    color: #fff;
+    letter-spacing: 0.02rem;
+}
+.carryCard-page .card-tc .tc-btn1 .btn-list1 {
+    //display: flex;
+    //align-items: center;
+    //justify-content: center;
+    width: 2.61rem;
+    height: 1.2rem;
+    background-size: 100% 100%;
+    font-size: 0.3rem;
+    color: #fff;
+    letter-spacing: 0.02rem;
+    position: absolute;
+    left: 11%;
+}
+.carryCard-page .card-tc .tc-btn1 .btn-list2 {
+    //display: flex;
+    //align-items: center;
+    //justify-content: center;
+    width: 2.61rem;
+    height: 1.2rem;
+    background-size: 100% 100%;
+    font-size: 0.3rem;
+    color: #fff;
+    letter-spacing: 0.02rem;
+    position: absolute;
+    right: 11%;
+}
+.carryCard-page .card-tc .tc-btn .btn-list:nth-child(1) {
+    //margin-right: 0.2rem;
+}
+.moreTag{
+    width: 100%;
+    position: absolute;
+    display: flex;
+}
+.moreTag p{
+    display: inline-block;
+    margin: 0 auto;
+}
+.carryCard-page .card-tc .tc-btn .btn-list:nth-child(2) {
+    margin-left: 0.2rem;
+}
+
+.carryCard-page .card-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.2rem;
+}
+
+.carryCard-page .detail2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+// .carryCard-page .none{
+//     display: none;
+// }
+.carryCard-page .card-detail .detail-title {
+    margin-bottom: 0.2rem;
+}
+
+.carryCard-page .card-detail .detail-title img {
+    width: 7.14rem;
+    height: 0.34rem;
+}
+
+.carryCard-page .card-detail .detail-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 6.73rem;
+    height: 14.18rem;
+    background: url("https://res.cmicrwx.cn/rs/res3/rwkweb/carrycard/detail-content.png");
+    background-size: 100% 100%;
+    padding-top: 1rem;
+    box-sizing: border-box;
+}
+
+.carryCard-page .card-detail .detail-content .detail-list {
+    display: flex;
+    width: 5.83rem;
+    padding-bottom: 0.5rem;
+    box-sizing: border-box;
+    border-bottom: 1px dashed #f609f0;
+    margin-bottom: 0.8rem;
+}
+
+.carryCard-page .card-detail .detail-content .none {
+    border: none;
+}
+
+.carryCard-page .card-detail .detail-content .detail-list .list-title {
+    display: inline-block;
+    width: 0.75rem;
+    font-size: 0.34rem;
+    color: #fff;
+    margin-left: 0.2rem;
+}
+
+.carryCard-page .card-detail .detail-content .detail-list .list-content {
+    font-size: 0.24rem;
+    color: #fff;
+    letter-spacing: 0.02rem;
+}
+
+.carryCard-page .card-detail .detail-content .detail-list .big {
+    // margin-top: -0.32rem;
+    margin-left: 0.8rem;
+}
+
+.carryCard-page .card-detail .detail-content .detail-list .big2 {
+    margin-top: -0.18rem;
+    margin-left: 0.8rem;
+}
+
+.detail-content .detail-list .big2 p {
+    margin-bottom: 0.1rem;
+    width: 105%;
+}
+
+.carryCard-page .card-detail .detail-content .detail-list .list-content span {
+    font-size: 0.6rem;
+    color: #02F6FC;
+}
+
+.carryCard-page .card-tips {
+    width: 100%;
+    height: 21rem;
+    background-size: 100% 100%;
+    margin-top: 0.65rem;
+    margin-bottom: 0.45rem;
+}
+
+.carryCard-page .card-tips .tips-title {
+    text-align: center;
+    font-size: 0.3rem;
+    color: #aeb2bf;
+    margin-bottom: 0.45rem;
+}
+
+.carryCard-page .card-tips ul {
+    width: 88%;
+    margin: 0 auto;
+    list-style: none;
+    font-size: 0.22rem;
+    color: #aeb2bf;
+    letter-spacing: 0.02rem;
+}
+
+.carryCard-page .card-tips ul li {
+    margin-bottom: 0.2rem;
+}
+
+.success-page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 3rem;
+    box-sizing: border-box;
+}
+
+.success-page .success-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.success-page .success-content img {
+    width: 1.2rem;
+    height: 1.25rem;
+}
+
+.success-page .success-content p {
+    font-size: 0.32rem;
+    color: #333;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 0.8rem;
+}
+
+.success-page .success-content .fail-text {
+    font-size: 0.32rem;
+    color: #999;
+    margin-top: 0.2rem;
+}
+
+.success-page .success-content .mt {
+    margin-top: 0.5rem;
+}
+
+.success-page .return-btn {
+    position: absolute;
+    bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.7rem;
+    height: 1rem;
+    background: url("https://res.cmicrwx.cn/rs/res3/rwkweb/carrycard/return-btn.png");
+    background-size: 100% 100%;
+    font-size: 0.4rem;
+    color: #8826eb;
+    font-weight: 600;
+}
+
+.success-page .return-btn2 {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.7rem;
+    height: 1rem;
+    background: url("https://res.cmicrwx.cn/rs/res3/rwkweb/carrycard/return-btn.png");
+    background-size: 100% 100%;
+    font-size: 0.4rem;
+    color: #8826eb;
+    font-weight: 600;
+}
+
+.success-page .submit-btn {
+    position: absolute;
+    bottom: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.7rem;
+    height: 1rem;
+    background: url("https://res.cmicrwx.cn/rs/res3/rwkweb/carrycard/sub-btn.png");
+    background-size: 100% 100%;
+    font-size: 0.4rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+// toast
+.fadein {
+    animation: animate_in 0.25s;
+}
+
+.fadeout {
+    animation: animate_out 0.25s;
+    opacity: 0;
+}
+
+@keyframes animate_in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes animate_out {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.tip {
+    z-index: 9999;
+    position: fixed;
+    top: 50vh;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.tip span {
+    display: inline-block;
+    max-width: 100%;
+    margin: auto;
+    font-size: 0.32rem;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 0.12rem;
+    padding: 0.2rem 0.3rem;
+    line-height: 1.4;
+}
+
+// toast
+
+/*loading*/
+.loading {
+    width: 6rem;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.loading p {
+    font-size: .32rem;
+    margin-top: .3rem;
+    color: #f6f6f6;
+}
+
+.loading img {
+    display: block;
+    width: 2rem;
+    margin: 0 auto;
+}
+
+.active-rule-cont p {
+    height: .7rem;
+    line-height: .7rem;
+}
+
+.active-rule-cont {
+    height: 3.6rem;
+}
+
+.active-rule-cont h3 {
+    height: .7rem;
+    line-height: .7rem;
+}
